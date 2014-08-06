@@ -1,0 +1,37 @@
+{
+  "name": "sermon",
+  "plural": "sermons",
+  "base": "PersistedModel",
+  "properties": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subject": {
+      "type": "string"
+    },
+    "speaker": {
+      "type": "string"
+    },
+    "private": {
+      "type": "boolean",
+      "required": true
+    },
+    "series": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date",
+      "required": true
+    },
+    "files": {
+      "type": [
+        "object"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}
