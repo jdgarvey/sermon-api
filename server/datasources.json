@@ -5,6 +5,9 @@
   },
   "sermonDB": {
     "name": "sermonDB",
-    "connector": "mongodb"
+    "connector": "mongodb",
+    "host": "127.0.0.1",
+    "database": "sermonAPI",
+    "port": 27017
   }
 }
