@@ -6,25 +6,30 @@
     ]
   },
   "User": {
-    "dataSource": "db"
+    "dataSource": "sermonDB",
+    "public": true
   },
   "AccessToken": {
-    "dataSource": "db",
+    "dataSource": "sermonDB",
     "public": false
   },
   "ACL": {
-    "dataSource": "db",
+    "dataSource": "sermonDB",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "db",
+    "dataSource": "sermonDB",
     "public": false
   },
   "Role": {
-    "dataSource": "db",
+    "dataSource": "sermonDB",
     "public": false
   },
   "sermon": {
+    "dataSource": "sermonDB",
+    "public": true
+  },
+  "client": {
     "dataSource": "sermonDB",
     "public": true
   }

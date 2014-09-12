@@ -4,10 +4,10 @@
     "connector": "memory"
   },
   "sermonDB": {
-    "name": "sermonDB",
-    "connector": "mongodb",
     "host": "127.0.0.1",
+    "port": 27017,
     "database": "sermonAPI",
-    "port": 27017
+    "name": "sermonDB",
+    "connector": "mongodb"
   }
 }

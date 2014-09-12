@@ -1,0 +1,26 @@
+{
+  "name": "client",
+  "plural": "clients",
+  "base": "PersistedModel",
+  "options": {
+    "base": "User"
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {
+    "sermons": {
+      "type": "hasMany",
+      "model": "sermon",
+      "foreignKey": ""
+    }
+  },
+  "acls": [
+    {
+      "principalType": "ROLE",
+      "principalId": "$owner",
+      "permission": "ALLOW",
+      "accessType": "*"
+    }
+  ],
+  "methods": []
+}
