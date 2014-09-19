@@ -4,10 +4,12 @@
     "connector": "memory"
   },
   "sermonDB": {
-    "host": "127.0.0.1",
-    "port": 27017,
-    "database": "sermonAPI",
     "name": "sermonDB",
+    "host": "proximus.modulusmongo.net",
+    "database": "exYro5ra", 
+    "username": "venturpl", 
+    "password": "Kasilk!0", 
+    "port": 27017,
     "connector": "mongodb"
   }
 }
