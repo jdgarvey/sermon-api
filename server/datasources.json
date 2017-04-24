@@ -5,11 +5,11 @@
   },
   "sermonDB": {
     "name": "sermonDB",
-    "host": "ds119081.mlab.com",
-    "database": "heroku_53993w6d",
-    "username": "Mingus",
-    "password": "Mingus1",
-    "port": 19081,
+    "host": "proximus.modulusmongo.net",
+    "database": "avihuw9U",
+    "username": "venturpl",
+    "password": "Kasilk!0",
+    "port": 27017,
     "connector": "mongodb"
   }
 }
