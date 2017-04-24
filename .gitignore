@@ -1,4 +1,5 @@
-/fb_json/*
+﻿/fb_json/*
 node_modules/
 .idea/
 .DS_Store
+.vs
